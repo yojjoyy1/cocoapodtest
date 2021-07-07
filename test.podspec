@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "test"
-  spec.version      = "0.0.1"
+  spec.version      = "1.0.0"
   spec.summary      = "A short description of test."
 
   # This description is used to generate tags and improve search results.
@@ -91,7 +91,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "test","test/**/*.{swift}"
+  spec.source_files  = "test/*.{swift}"
   spec.exclude_files = "Example"
 
   # spec.public_header_files = "Classes/**/*.h"
